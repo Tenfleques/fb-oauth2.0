@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mysql:
+    image: mysql.oauth:latest
+    ports:
+      - "3306:3306"
+  php-apache:
+    image: www.oauth:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html/

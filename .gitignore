@@ -1,0 +1,9 @@
+configs
+database
+vendor
+composer.lock
+.idea
+sync.sh
+run.sh
+.vscode
+.DS_Store
